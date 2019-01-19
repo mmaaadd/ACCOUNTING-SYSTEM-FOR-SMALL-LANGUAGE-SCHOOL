@@ -1,0 +1,203 @@
+	html {
+		background-color: white;
+	}
+
+body	{ 
+	background-color: white;
+	margin:0;
+	border:0;
+	padding:0;
+	font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+	}
+
+p
+	{
+		font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+		font-size: 12px;
+		color:darkblue;
+		line-height:1.5;
+		text-align:left;
+	}
+
+p.nieaktywne
+	{
+		font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+		font-size: 12px;
+		color:gray;
+		line-height:1.5;
+		text-align:left;
+	}
+
+p.prawe
+	{
+		font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+		font-size: 12px;
+		color:darkblue;
+		line-height:1.5;
+		text-align:right;
+	}	
+
+p.male
+	{
+	font-size: 10px;
+	text-align: center;
+	}
+
+div
+{
+		font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+		font-size: 12px;
+		color:darkblue;
+		line-height:1.5;
+}
+	
+div.ramka
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:1090px;
+background-color: white;
+width: 770px;
+left:0px;
+top:0px;
+position:absolute;
+}
+
+div.ramka_ks
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:770px;
+background-color: white;
+width: 1090px;
+left:0px;
+top:0px;
+position:absolute;
+}
+
+div.ramka_ks_m
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:730px;
+background-color: white;
+width: 1050px;
+left:20px;
+top:20px;
+position:absolute;
+}
+
+div.daty
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:70px;
+background-color: white;
+width: 270px;
+left:500px;
+top:100px;
+position:absolute;
+}
+
+div.nr_rach
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:50px;
+background-color: white;
+width: 770px;
+left:0px;
+top:170px;
+position:absolute;
+text-align:center;
+font-size:16px;
+font-weight:bold;
+}
+
+div.sprzedawca
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:170px;
+background-color: white;
+width: 300px;
+left:50px;
+top:220px;
+position:absolute;
+}
+div.kupujacy
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:170px;
+background-color: white;
+width: 200px;
+left:500px;
+top:220px;
+position:absolute;
+}
+
+div.tabelka
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:400px;
+background-color: white;
+width: 650px;
+left:50px;
+top:390px;
+position:absolute;
+}
+
+div.podpisy
+{
+/*border-width: thin;
+border-style: solid;
+border-color: black;*/
+height:100px;
+background-color: white;
+width: 650px;
+left:50px;
+top:790px;
+position:absolute;
+}
+
+table.sample {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: blue;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.sample th {
+	border-width: thin;
+	padding: 0 4px;
+	border-style: solid;
+	border-color: blue;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.sample td {
+	border-width: thin;
+	padding: 0 4px;
+	border-style: solid;
+	border-color: blue;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+	vertical-align: baseline;
+	font-family: Helvetica,Arial,Century Gothic, Calibri, sans-serif;
+	font-size: 14px;
+	color:darkblue;
+	line-height:1.5;
+	text-align:center;
+	vertical-align:inherit;
+	}

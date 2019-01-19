@@ -1,0 +1,263 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1050px;
+}
+.pad-top {
+    padding-top:15px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #697aa7;
+border-color: #F0F0F0;
+min-height: 100px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+.active-link {
+    background-color:#f3f3f3;
+}
+    
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#697aa7;
+    width:100%;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+     padding-left:20px;
+}
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1050px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+
+/*=====================================================
+Mine CSS
+=======================================================*/
+td.form_cell {
+    padding-top: 3px;
+    width: 350px
+}
+
+td.form_cell_desc {
+    padding-top: 3px;
+    padding-right: 20px;
+}
+
+.ui-datepicker {
+    width: 350px;
+    text-align: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #697aa7;
+    border-color: #357ebd;
+}
+
+label {
+    font-weight: normal;
+}
+.save_overlay{
+    background-color: rgba(243, 243, 243, 0.51);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 1031;
+    display: none;
+    text-align: center;
+    left: 0px;
+}
+
+.panel-primary {
+    border-color: #697aa7;
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    left: 40%;
+}
+
+.panel-primary-edit {
+    border-color: #697aa7;
+    display: inline-block;
+    margin-top: 150px;
+}
+.panel-body{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.btn-100{
+    width: 100%;
+}
+
+.chosen-container.chosen-container-single {
+    width: 350px !important; /* fix for chosen element into collapsed element */
+}
+
+.input-group .form-control {
+  z-index: 0;
+}
+
+/*calendar styling*/
+
+#ui-datepicker-div {
+    z-index: 1032 !important; 
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #ccc;
+    background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #697aa7;
+}
+
+.ui-widget-header {
+    border: 1px solid hsla(224, 26%, 40%, 1);
+    background: #697aa7 50% 50% repeat-x;   
+    color: #fff;
+    font-weight: bold;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #697aa7;
+    background: hsla(224, 26%, 73%, 1) url(images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x;
+    color: white;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid hsla(224, 26%, 33%, 1);
+    background: #fff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: hsla(224, 26%, 13%, 1);
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border: 1px solid #697aa7;
+    background: hsla(224, 26%, 93%, 1) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #697aa7;
+}
+
+/*[end] calendar styling*/
